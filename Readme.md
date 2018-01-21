@@ -1,7 +1,7 @@
 # Личный проект «Седона» [![Build status][travis-image]][travis-url] [![Dependency status][dependency-image]][dependency-url]
 
 * Студент: [Юлия Старцева](https://up.htmlacademy.ru/adaptive/13/user/114289).
-* Наставник: [Дмитрий Мишагин](https://htmlacademy.ru/profile/id118967)
+* Наставник: [Дмитрий Мишагин]()
 
 ---
 
