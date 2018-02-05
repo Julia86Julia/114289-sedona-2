@@ -1,109 +1,103 @@
 <!DOCTYPE html>
 <html lang="ru">
-    <head>
-        <meta charset="utf-8">
-       <title>Седона</title>
-     </head>
-     <body>
-        <header class="page-header">
-            <a class="page-header_logo">
-              <img class="page-header_logo-image" src="http://placehold.it/150x100" alt="логотип">
-            </a>
-            <nav class="main-nav">
-              <button class="main-nav_toggle" type="button">открыть меню</button>
-              <div class="main-nav_wrapper">
-               <ul class="main-nav_list site-list">
-                 <li class="site-list_item site-list_item--active">
-                   <a>Главная</a>
-                 </li>
-                 <li class="site-list_item">
-                   <a href="#">фото и видео</a>
-                 </li>
-                 <li class="site-list_item">
-                   <a href="#">форма отзыва</a>
-                 </li>
-                 <li class="site-list_item">
-                   <a href="#">html academy</a>
-                 </li>
-               </ul>
-               <ul class="main-nav_list user-list">
-                 <li class="user-list_item">
-                   <a class="user-list_login" href="#">войти</a>
-                 </li>
-               </ul>
-              </div>
-            </nav>
-        </header>
-        <section class="comment">
-          <h2 class="comment-title">оставьте свой отзыв</h2>
-          <p class"comment-item">помогите нашим отелям стать лучше! оставьте отзыв о них, а также о посещенных вами достопримеяательностях</p>
-        </section>
-        <form class="myself">
-          <p class="myself-title">представьтесь:</p>
-          <label for="myself-name">Имя*</label>
-          <input type="text" id="myself-name">
-          <label class="myself-surname">фамилия*</label>
-          <input type="text" id="myself-surname">
-          <label class="myself-patronymic">отчество</label>
-          <input type="text" id="myself-patronymic">
-        </form>
-        <form class="inform">
-          <p class="inform-title">контактная информация:</p>
-          <label class="inform-phone">контактный телефон*:</label>
-          <input type"tel" id="inform-phone">
-          <label class="inform-mail">электронная почта*:</label>
-          <input type"mail" id="inform-mail">
-        </form>
-        <form class="effect">
-          <p class="effect-title">ваше общее впечатление</p>
-          <label>
-            <input type="radio" name="positive" value="p" checked>
-            скорее положительное
-          </label>
-          <label>
-            <input type="radio" name="negative" value="n">
-            скорее отрицательное
-          </label>
-          <label>
-            <input type="radio" name="dontknow" value="d">
-            затрудняюсь ответить
-          </label>
-        </form>
-        <form class="sight">
-          <p><input type="checkbox" name="a" value="bridge" checked>мост дьявола</p>
-          <p><input type="checkbox" name="a" value="park" checked>слайд-парк</p>
-          <p><input type="checkbox" name="a" value="mountain">гора-колокол</p>
-          <p><input type="checkbox" name="a" value="rock" checked>красные скалы</p>
-        </form>
-        <section class="review">
-          <h2 class="reviews__title">опишите свои эмоции</h2>
-          <a class="reviews__write button" href="#">отправить отзыв</a>
-          <div class="reviews__list">
-            <blockquote class="reviews__item">
-        </section>
-        <footer class="page-footer">
-          <div>
-           <div class="page-footer__contacts contacts">
-               <b class="contacts__title">#visitsedona</b>
-           </div>
-           <div class="page-footer__social social">
-               <ul class="social__list">
-                 <li class="social__item">
-                   <a class="social__link social__link--vkontakte" href="#">Мы в Твитере</a>
-                 </li>
-                 <li class="social__item">
-                     <a class="social__link social__link--facebook" href="#">Мы в Фейсбуке</a>
-                   </li>
-                   <li class="social__item">
-                     <a class="social__link social__link--instagram" href="#">Мы на youtube</a>
-                   </li>
-               </ul>
-             </div>
-             <div class="page-footer__copyright copyright">
-                 <b class="copyright__text">Разработано:</b>
-                 <a class="button copyright__link" href="#">HTML Academy</a>
-             </div>
-          </div>
-        </footer>
-     </body>
+  <head>
+    <meta charset="utf-8">
+    <title>Седона</title>
+  </head>
+  <body>
+    <header class="page-header">
+      <a class="page-header__logo">
+        <img class="page-header__logo-image" src="http://placehold.it/150x100" alt="логотип">
+      </a>
+      <nav class="main-nav">
+        <button class="main-nav_toggle" type="button">открыть меню</button>
+        <div class="main-nav__wrapper">
+          <ul class="main-nav__list site_-list">
+            <li class="site-list__item site-list__item--active">
+              <a>Главная</a>
+            </li>
+            <li class="site-list__item">
+              <a href="#">фото и видео</a>
+            </li>
+            <li class="site-list__item">
+              <a href="#">форма отзыва</a>
+            </li>
+            <li class="site-list__item">
+              <a href="#">html academy</a>
+            </li>
+          </ul>
+          <ul class="main-nav__list user-list">
+            <li class="user-list__item">
+              <a class="user-list__login" href="#">войти</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <section class="comment">
+      <h2 class="comment__title">оставьте свой отзыв</h2>
+      <p class"comment__item">помогите нашим отелям стать лучше! оставьте отзыв о них, а также о посещенных вами достопримеяательностях</p>
+    </section>
+    <form class="myself">
+      <p class="myself__title">представьтесь:</p>
+      <label for="myself-name">Имя*</label>
+      <input type="text" id="myself-name">
+      <label class="myself-surname">фамилия*</label>
+      <input type="text" id="myself-surname">
+      <label class="myself-patronymic">отчество</label>
+      <input type="text" id="myself-patronymic">
+      <p class="inform__title">контактная информация:</p>
+      <label for="inform-phone">контактный телефон*:</label>
+      <input type"tel" id="inform-phone">
+      <label for="inform-mail">электронная почта*:</label>
+      <input type"mail" id="inform-mail">
+      <p class="effect_title">ваше общее впечатление</p>
+      <label>
+      <input type="radio" name="positive" value="p" checked>
+        скорее положительное
+      </label>
+      <label>
+      <input type="radio" name="positive" value="n">
+        скорее отрицательное
+      </label>
+      <label>
+      <input type="radio" name="positive" value="d">
+        затрудняюсь ответить
+      </label>
+      <p><input type="checkbox" name="a" value="bridge" checked>мост дьявола</p>
+      <p><input type="checkbox" name="a" value="park" checked>слайд-парк</p>
+      <p><input type="checkbox" name="a" value="mountain">гора-колокол</p>
+      <p><input type="checkbox" name="a" value="rock" checked>красные скалы</p>
+    </form>
+    <section class="preview">
+      <h2 class="preview__title">опишите свои эмоции</h2>
+      <a class="preview__write button" href="#">отправить отзыв</a>
+      <div class="preview__list">
+      <blockquote class="preview__item">
+    </section>
+    <footer class="page-footer">
+      <div>
+        <div class="page-footer__contacts contacts">
+          <b class="contacts__title">#visitsedona</b>
+        </div>
+        <div class="page-footer__social social">
+          <ul class="social__list">
+            <li class="social__item">
+              <a class="social__link social__link--vkontakte" href="#">Мы в Твитере</a>
+            </li>
+            <li class="social__item">
+              <a class="social__link social__link--facebook" href="#">Мы в Фейсбуке</a>
+            </li>
+            <li class="social__item">
+              <a class="social__link social__link--instagram" href="#">Мы на youtube</a>
+            </li>
+          </ul>
+        </div>
+        <div class="page-footer__copyright copyright">
+          <b class="copyright__text">Разработано:</b>
+          <a class="button copyright__link" href="#">HTML Academy</a>
+        </div>
+      </div>
+    </footer>
+  </body>
 </html>
