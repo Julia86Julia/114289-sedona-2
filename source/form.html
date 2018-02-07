@@ -34,47 +34,81 @@
         </div>
       </nav>
     </header>
-    <section class="comment">
-      <h2 class="comment__title">оставьте свой отзыв</h2>
-      <p class"comment__item">помогите нашим отелям стать лучше! оставьте отзыв о них, а также о посещенных вами достопримеяательностях</p>
-    </section>
-    <form class="myself">
-      <p class="myself__title">представьтесь:</p>
-      <label for="myself-name">Имя*</label>
-      <input type="text" id="myself-name">
-      <label class="myself-surname">фамилия*</label>
-      <input type="text" id="myself-surname">
-      <label class="myself-patronymic">отчество</label>
-      <input type="text" id="myself-patronymic">
-      <p class="inform__title">контактная информация:</p>
-      <label for="inform-phone">контактный телефон*:</label>
-      <input type"tel" id="inform-phone">
-      <label for="inform-mail">электронная почта*:</label>
-      <input type"mail" id="inform-mail">
-      <p class="effect_title">ваше общее впечатление</p>
-      <label>
-      <input type="radio" name="positive" value="p" checked>
-        скорее положительное
-      </label>
-      <label>
-      <input type="radio" name="positive" value="n">
-        скорее отрицательное
-      </label>
-      <label>
-      <input type="radio" name="positive" value="d">
-        затрудняюсь ответить
-      </label>
-      <p><input type="checkbox" name="a" value="bridge" checked>мост дьявола</p>
-      <p><input type="checkbox" name="a" value="park" checked>слайд-парк</p>
-      <p><input type="checkbox" name="a" value="mountain">гора-колокол</p>
-      <p><input type="checkbox" name="a" value="rock" checked>красные скалы</p>
-    </form>
-    <section class="preview">
-      <h2 class="preview__title">опишите свои эмоции</h2>
-      <a class="preview__write button" href="#">отправить отзыв</a>
-      <div class="preview__list">
-      <blockquote class="preview__item">
-    </section>
+    <main class="review-main">
+      <section class="review">
+        <div class="wrapper">
+          <h2 class="review__title">оставьте свой отзыв</h2>
+          <p class"review__item">помогите нашим отелям стать лучше! оставьте отзыв о них, а также о посещенных вами достопримеяательностях</p>
+          <form class="review-form" action="#">
+            <fieldset class="review-form__item">
+              <legend class="review-form__title">представьтесь:</legend>
+              <div class="label__wrapper">
+                <label class="form__label" for="name">Имя*</label>
+                <input class="form__input" type="text" id="name" placeholder="Петр">
+              </div>
+              <div class="label__wrapper">
+                <label class="form__label" for="surname">фамилия*</label>
+                <input class="form__input" type="text" id="surname" placeholder="Иванов">
+              </div>
+              <div class="label__wrapper">
+                <label class="form__label" for="patronymic">отчество:</label>
+                <input class="form__input" type="text" id="patronymic" placeholder="Александрович">
+              </div>
+            </fieldset>
+            <fieldset class="review-form">
+              <legend class="review-form__title">контактная информация:</legend>
+              <div class="label__wrapper">
+                <label class="form__label" for="phone">контактный телефон*:</label>
+                <input class="form__input" type"text" id="phone" placeholder="Введите телефон">
+              </div>
+              <div class="label__wrapper">
+                <label class="form__label" for="email">электронная почта*:</label>
+                <input class="form__input" type"email" id="email" placeholder="Введите e-mail">
+              </div>
+            </fieldset>
+            <fieldset class="review-form">
+              <legend class="review-form__title">ваше общее впечатление</legend>
+              <div class="label__wrapper">
+                <label class="form__label" for="positive"> скорее положительное</label>
+                <input class="form__input" type"checkbox" id="positive" name="positive" value="p" checked>
+              </div>
+              <div class="label__wrapper">
+                <label class="form__label" for="negative"> скорее отрицательное</label>
+                <input class="form__input" type"checkbox" id="negative" name="positive" value="n">
+              </div>
+              <div class="label__wrapper">
+                <label class="form__label" for="dont">затрудняюсь ответить</label>
+                <input class="form__input" type"checkbox" id="dont" name="positive" value="d">
+              </div>
+            </fieldset>
+            <fieldset class="review-form">
+              <legend class="review-form__title">Посещенные достопримечательности:</legend>
+              <div class="label__wrapper">
+                <label class="form__label" for="place"> мост дьявола</label>
+                <input class="form__input" type="checkbox" id="place" name="a" value="1" checked>
+              </div>
+              <div class="label__wrapper">
+                <label class="form__label" for="place2">слайд-парк</label>
+                <input class="form__input" type="checkbox" id="place2" name="a" value="2" checked>
+              </div>
+              <div class="label__wrapper">
+                <label class="form__label" for="place3">гора-колокол</label>
+                <input class="form__input" type="checkbox" id="place3" name="a" value="3">
+              </div>
+              <div class="label__wrapper">
+                <label class="form__label" for="place4">красные скалы</label>
+                <input class="form__input" type="checkbox" id="place4" name="a" value="4" checked>
+              </div>
+            </fieldset>
+            <fieldset class="review-form">
+              <legend class="review-form__title">Опишите свои эмоции:</legend>
+              <textarea class="form__input--textarea" type="textarea">Опишите подробно все свои восторги</textarea>
+            </fieldset>
+            <input class="form__button button" type="submit" value="Отправить отзыв">
+          </form>
+        </div>
+      </section>
+    </main>
     <footer class="page-footer">
       <div>
         <div class="page-footer__contacts contacts">
@@ -101,3 +135,4 @@
     </footer>
   </body>
 </html>
+
