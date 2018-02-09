@@ -12,7 +12,7 @@
       <nav class="main-nav">
         <button class="main-nav_toggle" type="button">открыть меню</button>
         <div class="main-nav__wrapper">
-          <ul class="main-nav__list site_-list">
+          <ul class="main-nav__list site-list">
             <li class="site-list__item site-list__item--active">
               <a>Главная</a>
             </li>
@@ -34,77 +34,77 @@
         </div>
       </nav>
     </header>
-    <main class="review-main">
+    <main class="page-main">
       <section class="review">
         <div class="wrapper">
           <h2 class="review__title">оставьте свой отзыв</h2>
-          <p class"review__item">помогите нашим отелям стать лучше! оставьте отзыв о них, а также о посещенных вами достопримеяательностях</p>
+          <p class="review__text">помогите нашим отелям стать лучше! оставьте отзыв о них, а также о посещенных вами достопримеяательностях</p>
           <form class="review-form" action="#">
             <fieldset class="review-form__item">
               <legend class="review-form__title">представьтесь:</legend>
-              <div class="label__wrapper">
-                <label class="form__label" for="name">Имя*</label>
-                <input class="form__input" type="text" id="name" placeholder="Петр">
+              <div class="review-form__label-wrapper">
+                <label class="review-form__label" for="name">Имя*</label>
+                <input class="review-form__input-text" type="text" id="name" placeholder="Петр">
               </div>
-              <div class="label__wrapper">
-                <label class="form__label" for="surname">фамилия*</label>
-                <input class="form__input" type="text" id="surname" placeholder="Иванов">
+              <div class="review-form__label-wrapper">
+                <label class="review-form__label" for="surname">фамилия*</label>
+                <input class="review-form__input-text" type="text" id="surname" placeholder="Иванов">
               </div>
-              <div class="label__wrapper">
-                <label class="form__label" for="patronymic">отчество:</label>
-                <input class="form__input" type="text" id="patronymic" placeholder="Александрович">
+              <div class="review-form__label-wrapper">
+                <label class="review-form__label" for="patronymic">отчество:</label>
+                <input class="review-form__input-text" type="text" id="patronymic" placeholder="Александрович">
               </div>
             </fieldset>
-            <fieldset class="review-form">
+            <fieldset class="review-form__item">
               <legend class="review-form__title">контактная информация:</legend>
-              <div class="label__wrapper">
-                <label class="form__label" for="phone">контактный телефон*:</label>
-                <input class="form__input" type"text" id="phone" placeholder="Введите телефон">
+              <div class="review-form__label-wrapper">
+                <label class="review-form__label" for="phone">контактный телефон*:</label>
+                <input class="review-form__input-text" type="text" id="phone" placeholder="Введите телефон">
               </div>
-              <div class="label__wrapper">
-                <label class="form__label" for="email">электронная почта*:</label>
-                <input class="form__input" type"email" id="email" placeholder="Введите e-mail">
+              <div class="review-form__label-wrapper">
+                <label class="review-form__label" for="email">электронная почта*:</label>
+                <input class="review-form__input-email" type="email" id="email" placeholder="Введите e-mail">
               </div>
             </fieldset>
-            <fieldset class="review-form">
+            <fieldset class="review-form__item">
               <legend class="review-form__title">ваше общее впечатление</legend>
-              <div class="label__wrapper">
-                <label class="form__label" for="positive"> скорее положительное</label>
-                <input class="form__input" type"checkbox" id="positive" name="positive" value="p" checked>
+              <div class="review-form__label-wrapper">
+                <label class="review-form__label" for="positive"> скорее положительное</label>
+                <input class="review-form__input-checkbox" type="checkbox" id="positive" name="positive" value="p" checked>
               </div>
-              <div class="label__wrapper">
-                <label class="form__label" for="negative"> скорее отрицательное</label>
-                <input class="form__input" type"checkbox" id="negative" name="positive" value="n">
+              <div class="review-form__label-wrapper">
+                <label class="review-form__label" for="negative"> скорее отрицательное</label>
+                <input class="review-form__input-checkbox" type="checkbox" id="negative" name="positive" value="n">
               </div>
-              <div class="label__wrapper">
-                <label class="form__label" for="dont">затрудняюсь ответить</label>
-                <input class="form__input" type"checkbox" id="dont" name="positive" value="d">
+              <div class="review-form__label-wrapper">
+                <label class="review-form__label" for="dont">затрудняюсь ответить</label>
+                <input class="review-form__input-checkbox" type="checkbox" id="dont" name="positive" value="d">
               </div>
             </fieldset>
-            <fieldset class="review-form">
+            <fieldset class="review-form__item">
               <legend class="review-form__title">Посещенные достопримечательности:</legend>
-              <div class="label__wrapper">
-                <label class="form__label" for="place"> мост дьявола</label>
-                <input class="form__input" type="checkbox" id="place" name="a" value="1" checked>
+              <div class="review-form__label-wrapper">
+                <label class="review-form__label" for="place"> мост дьявола</label>
+                <input class="review-form__input-checkbox" type="checkbox" id="place" name="a" value="1" checked>
               </div>
-              <div class="label__wrapper">
-                <label class="form__label" for="place2">слайд-парк</label>
-                <input class="form__input" type="checkbox" id="place2" name="a" value="2" checked>
+              <div class="review-form__label-wrapper">
+                <label class="review-form__label" for="place2">слайд-парк</label>
+                <input class="review-form__input-checkbox" type="checkbox" id="place2" name="a" value="2" checked>
               </div>
-              <div class="label__wrapper">
-                <label class="form__label" for="place3">гора-колокол</label>
-                <input class="form__input" type="checkbox" id="place3" name="a" value="3">
+              <div class="review-form__label-wrapper">
+                <label class="review-form__label" for="place3">гора-колокол</label>
+                <input class="review-form__input-checkbox" type="checkbox" id="place3" name="a" value="3">
               </div>
-              <div class="label__wrapper">
-                <label class="form__label" for="place4">красные скалы</label>
-                <input class="form__input" type="checkbox" id="place4" name="a" value="4" checked>
+              <div class="review-form__label-wrapper">
+                <label class="review-form__label" for="place4">красные скалы</label>
+                <input class="review-form__input-checkbox" type="checkbox" id="place4" name="a" value="4" checked>
               </div>
             </fieldset>
-            <fieldset class="review-form">
+            <fieldset class="review-form__item">
               <legend class="review-form__title">Опишите свои эмоции:</legend>
-              <textarea class="form__input--textarea" type="textarea">Опишите подробно все свои восторги</textarea>
+              <textarea class="review-form__input-text">Опишите подробно все свои восторги</textarea>
             </fieldset>
-            <input class="form__button button" type="submit" value="Отправить отзыв">
+            <input class="review-form__button button" type="submit" value="Отправить отзыв">
           </form>
         </div>
       </section>
